@@ -1,0 +1,209 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    background-color: rgb(30, 30, 30);
+    font-family: 'poppinslight', sans-serif;
+    color: rgb(255, 255, 255);
+    font-size: 15pt;
+    text-decoration: none;
+}
+
+#color-change{
+    color: rgba(17, 207, 17, 0.905);
+    line-height: 70px;
+    margin-bottom: 30px;
+}
+
+h1{
+    text-align: center;
+}
+
+h4{
+    text-align: center;
+    color: white;
+    margin-bottom: 30px;
+}
+
+.title{
+    font-size: 25px;
+    padding-top: 48px;
+    width: 360px;
+    margin: 0 auto;
+    border-bottom: 3px solid rgba(17, 207, 17, 0.905);
+    border-radius: 5px;
+}
+
+.border-top{
+    text-align: center;
+    width: 400px;
+    margin: 0 auto;
+    border-top: 1px solid;
+}
+
+
+p{
+    text-align: center;
+    font-size: 20px;
+    width: 600px;
+    margin: 0 auto;
+    cursor: pointer;
+    margin-bottom: 20px;
+    line-height: 27px;
+}
+
+#earth-image{
+    width: 100px;
+}
+
+.image-and-text{
+    padding: 30px;
+    display: flex;
+    align-items: center;
+}
+
+.title-header{
+    border-bottom: 3px solid rgba(17, 207, 17, 0.905);
+    border-radius: 5px;
+}
+
+#azimutal{
+    width: 300px;
+    display: flex;
+    margin: auto;
+    margin-top: 30px;
+}
+
+p:hover{
+    transition: transform 0.3s;
+    transform: scale(1.03);
+}
+
+#onu{
+    width: 250px;
+    display: flex;
+    margin: 0 auto;
+    margin-top: 100px;
+    margin-bottom: 100px;
+}
+
+#azimutal:hover{
+    transition: transform 0.3s;
+    transform: scale(1.03);
+}
+
+#onu:hover{
+    transition: transform 0.3s;
+    transform: scale(1.03);
+}
+
+.name-people{
+    margin-top: 30px;
+}
+
+.border-bottom{
+    text-align: center;
+    width: 270px;
+    margin: 0 auto;
+    border-bottom: 3px solid rgba(31, 145, 31, 0.905);
+    border-radius: 5px;
+}
+
+.representatives-box{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    width: 430px;
+    height: 340px;
+    margin: 0 auto;
+    margin-top: 30px;
+    margin-bottom: 60px;
+    background-color: rgb(15, 15, 15);
+    border-radius: 5px;
+    box-shadow: 0px 1px 10px black;
+}
+
+.representatives-box:hover{
+    transition: all 0.3s;
+    transform: scale(1.03);
+}
+
+
+.obs-box{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    width: 380px;
+    height: 270px;
+    margin-left: 100px;
+    background-color: rgb(15, 15, 15);
+    border-radius: 5px;
+    box-shadow: 0px 1px 10px black;
+}
+
+.obs-box:hover{
+    transition: all 0.3s;
+    transform: scale(1.03);
+}
+
+.obs-title{
+    margin-bottom: 65px;
+}
+
+.obs-box p{
+    margin-bottom: 60px;
+    text-align: center;
+    width: 350px;
+}
+
+h6{
+    margin-top: 50px;
+    font-size: 20px;
+    border-bottom: 3px solid rgba(17, 207, 17, 0.905);
+    border-radius: 5px;
+}
+
+ul{
+    margin-top: 50px;
+    margin-bottom: 50px;
+    margin-right: 200px;
+}
+
+li{
+    margin-bottom: 10px;
+}
+
+.questions{
+    margin-top: 150px;
+}
+
+.questions-box{
+    padding-top: 50px;
+    width: 600px;
+    height: 200px;
+    background-color: rgb(15, 15, 15);
+    border-radius: 10px;
+    margin: 0 auto;
+    margin-bottom: 45px;
+    box-shadow: 0px 1px 10px black;
+}
+
+.questions-box:hover{
+    transition: all 0.3s;
+    transform: scale(1.03);
+}
+
+#focus{
+    font-size: 45px;
+    padding-top: 20px;
+}
+
+#big-box{
+    height: 330px;
+    width: 650px;
+}
